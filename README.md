@@ -10,12 +10,9 @@ Website that tells you the location of the nearest e-waste collection and recycl
 Ministry of Environment
 
 ## Idea
-```
 The E-Waste Facility Locator is a digital platform designed to help individuals and organizations easily locate nearby facilities for the proper disposal and recycling of electronic waste (e-waste). This initiative aims to promote environmental sustainability by facilitating the responsible disposal of electronic devices, preventing them from ending up in landfills where they can harm the environment.
-```
 
 ## Proposed Solution / Architecture Diagram
-```
 1.User Interface (UI): Frontend application accessible via web browsers and mobile devices. Provides the user interface for searching e-waste facilities, educational pop-ups, user account management, and rewards tracking.
 
 2.Application Server: Backend server responsible for handling user requests, processing data, and communicating with other components. Implements the business logic of the application, including search functionality, rewards calculation, and user authentication.
@@ -29,33 +26,37 @@ The E-Waste Facility Locator is a digital platform designed to help individuals 
 6.External APIs: Integrates with external APIs for mapping and geolocation services to fetch and display e-waste facility locations on the map. May also integrate with electronics manufacturers' APIs for retrieving device model information and calculating rewards points.
 
 7.Partnership Integration: Integrates with partner systems, such as electronics manufacturers or retailers, to provide exclusive incentives and rewards for users. Communicates with partner APIs to validate rewards and incentives earned by users.
-![ewaste](https://github.com/Pavithra-M119/SIHPS/assets/119229774/31a6d69f-2b97-413b-bbaa-f11aa8561adb)
-```
+
+![WhatsApp Image 2024-05-08 at 13 32 08_0922e6f3](https://github.com/Pavithra-M119/SIHPS/assets/119229774/2896e3a7-9aa2-424d-a755-bb4fe58f1834)
 
 ## Use Cases
-```
+
 Finding Nearest E-Waste Facility:
 User launches the application and allows access to their location.
 The system identifies the user's location and displays nearby e-waste recycling facilities on the map.
 User selects a facility for more information or navigation directions.
+
 Contributing New Facility Information:
 User registers or logs into the application.
 User submits information about a new e-waste recycling facility, including its location, contact details, and accepted materials.
 Submitted information undergoes verification before being added to the database.
+
 Feedback and Ratings:
 User selects a facility from the search results.
 User provides feedback on their experience with the facility, such as cleanliness, staff friendliness, and overall satisfaction.
 User ratings and comments are displayed to other users to help them make informed decisions.
+
 Promotion and Awareness:
 The application sends push notifications or emails to users about e-waste recycling events, campaigns, or special initiatives.
 Users can share information about the application and specific facilities on social media platforms to raise awareness among their peers.
+
 Educational Resources:
 The application provides educational resources and tips on reducing e-waste, proper disposal methods, and the environmental impact of electronic devices.
 Users can access articles, videos, and infographics to learn more about e-waste management best practices.
-```
+
 
 ## Technology Stack
-```
+
 1.Frontend:React.js with Bootstrap for responsive UI.
 
 2.Backend: Node.js with Express.js, MongoDB for data storage.
@@ -69,10 +70,10 @@ Users can access articles, videos, and infographics to learn more about e-waste 
 6.DevOps: CI/CD with GitHub Actions, monitoring with AWS CloudWatch.
 
 7.Security: SSL/TLS encryption, OWASP Top 10 compliance.
-```
+
 
 ## Dependencies
-```
+
 1.Frontend: React.js, React Router, Axios, Bootstrap or Material-UI
 
 2.Backend: Node.js with Express.js, Mongoose, Passport.js, jsonwebtoken, Dotenv
@@ -86,4 +87,4 @@ Users can access articles, videos, and infographics to learn more about e-waste 
 6.Development and Deployment: GitHub Actions or CircleCI, AWS CloudWatch
 
 7.Security: Helmet, bcrypt.js
-```
+
